@@ -14,7 +14,7 @@ snippet incc
 	#include <${1:iostream}>
 snippet binc
 	#include <boost/${1:shared_ptr}.hpp>
-##
+
 ## STL Collections
 # std::array
 snippet array
@@ -96,10 +96,11 @@ snippet mu
 ##
 ## Class
 # class
-snippet cl class
-{
-	${0}
-}
+snippet cl
+	class
+	{
+		${0}
+	}
 
 # member function implementation
 snippet mfun
